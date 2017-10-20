@@ -1,5 +1,15 @@
 body{
-	color: orange;
-	font-family: 
+	background-color:black;
+	color:orange;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:20px; 
 }
+
+nav{
+	margin-bottom:20px;
+}
+
+a nav{margin-right:5px;
+}
+
 
