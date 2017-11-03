@@ -26,3 +26,10 @@ function shakeeightball() {
 	document.getElementById("results").innerHTML=list[randomnumber()];
 
 }
+
+/* below is code for tic tac toe*/
+
+//handles x and o turns
+function turn(location){
+	document.getElementById(location).innerHTML= "x" ;
+}

@@ -12,4 +12,21 @@ nav{
 a nav{margin-right:5px;
 }
 
+/*below is the code for tic tac toe */
 
+#board{
+       width: 330px ;
+       height: 330px ;
+       border-style: solid;
+       border-width: 10px ;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 25px ;
+}
+.box{
+     height: 100px;
+     width: 100px;
+     border-style: solid;
+     border-width: 5px;
+     float: left;
+}
