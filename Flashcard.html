@@ -2,12 +2,13 @@
 
 	<head>
 		<title> Flashcard </title>
-		<link rel="stylesheet" type="text/css" href="indexcss.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="flashcards.js"> </script>
 	</head>
 
 	<body >
 
-	<div>  
+	<div id="container">  
 	<nav> 
 		<a href="index.html">
 			Home
@@ -19,26 +20,27 @@
         *
 		<a href="projects.html">
 		    Projects
+		</a>
 	</nav>
 
     <div>
         <br>
-       <input type="text" value="" >
+       <input type="text" id="operand1" value="1" >
 
         <br>
         +
 
         <br>
-        <input type="text" value="" >
+        <input type="text" id="operand2" value="3" >
 
         <br>
         __________________________________________________________________________
 
         <br>
-        <input type="text" value="" >
+        <input type="text" id="answer" value="5" >
 
         <br>
-        <input type="button" value="" >
+        <input type="button" onclick="addNumbers();" id="checkAnswer" value="checkAnswer" >
 
 	</div>
 
